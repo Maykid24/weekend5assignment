@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <script src="vendors/angular.min.js" charset="utf-8"></script>
+    <script src="scripts/script.js" charset="utf-8"></script>
+    <script src="scripts/photo.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="vendors/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+    <title>Photos</title>
+  </head>
+  <body>
+    <h2 class="text-center">Animal Photos!</h2>
+    <div ng-include="'partials/navigation.html'"></div>
+      <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <div class="btn-toolbar">
+            <div class="btn-group">
+              <button type="button" class="btn btn-secondary" onclick="img1()" id="1">1</button>
+              <button type="button" class="btn btn-secondary" onclick="img2()" id="2">2</button>
+              <button type="button" class="btn btn-secondary" onclick="img3()" id="3">3</button>
+              <button type="button" class="btn btn-secondary" onclick="img4()" id="4">4</button>
+              <button type="button" class="btn btn-secondary" onclick="img5()" id="5">5</button>
+              <button type="button" class="btn btn-secondary" onclick="img6()" id="6">6</button>
+              <button type="button" class="btn btn-secondary" onclick="img7()" id="7">7</button>
+              <button type="button" class="btn btn-secondary" onclick="img8()" id="8">8</button>
+              <button type="button" class="btn btn-secondary" onclick="img9()" id="9">9</button>
+              <button type="button" class="btn btn-secondary" onclick="img10()" id="10">10</button>
+              <button type="button" class="btn btn-secondary" onclick="img11()" id="11">11</button>
+              <button type="button" class="btn btn-secondary" onclick="img12()" id="12">12</button>
+              <button type="button" class="btn btn-secondary" onclick="img13()" id="13">13</button>
+              <button type="button" class="btn btn-secondary" onclick="img14()" id="14">14</button>
+              <button type="button" class="btn btn-secondary" onclick="img15()" id="15">15</button>
+              <button type="button" class="btn btn-secondary" onclick="img16()" id="16">16</button>
+              <button type="button" class="btn btn-secondary" onclick="img17()" id="17">17</button>
+              <button type="button" class="btn btn-secondary" onclick="img18()" id="18">18</button>
+              <button type="button" class="btn btn-secondary" onclick="img19()" id="19">19</button>
+              <button type="button" class="btn btn-secondary" onclick="img20()" id="20">20</button>
+            </div>
+          </div> <!-- End of btn-toolbar -->
+          <img id="catgif" src="photos/cats.gif" style="visibility:hidden" />
+          <img id="backImage" src="photos/background.jpg" style="visibility:hidden" />
+        </div>
+      <div class="col-md-2"></div>
+  </body>
+</html>

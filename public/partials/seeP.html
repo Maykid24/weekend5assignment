@@ -1,0 +1,21 @@
+<div ng-controller="whereTheAnimals">
+  <div class="col-md-2"></div>
+    <button class="btn btn-primary" type="button" ng-click="getPets()">Get pet lists</button>
+    <div class="col-md-8">
+    <table class="table table-bordered">
+      <tr>
+        <th>Pet Name</th>
+        <th>Animal Type</th>
+        <th>Age</th>
+        <th>Image URL</th>
+      </tr>
+      <tr ng-repeat="pets in allThePets">
+        <td>{{pets.name}}</td>
+        <td>{{pets.animal}}</td>
+        <td>{{pets.age}}</td>
+        <td><a ng-href="http://{{pets.image}}">{{pets.image}}</a></td>
+      </tr>
+    </table>
+    </div>
+    <div class="col-md-2"></div>
+</div>

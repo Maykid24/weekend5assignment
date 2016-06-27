@@ -1,0 +1,6 @@
+.jumbotron {
+  background-image: url('/photos/cats.gif');
+  background-position: center;
+  height: 200px;
+  background-repeat: no-repeat;
+}

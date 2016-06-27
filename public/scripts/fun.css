@@ -1,0 +1,5 @@
+.jumbotron {
+  background-image: url('/photos/background.jpg');
+  background-repeat: repeat-x;
+  height: 375px;
+}
